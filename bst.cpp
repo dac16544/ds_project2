@@ -90,7 +90,7 @@ int main(const int argc, const char * argv []) {
   cout << endl << "Post-order traversal: " << endl;
   mainTree.PostOrderTraversal(mainTree.root);
   cout << endl;
-
+  mainTree.printLevelOrder(Height(mainTree.root));
   return EXIT_SUCCESS;
 } // main
 
