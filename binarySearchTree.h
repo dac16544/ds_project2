@@ -45,7 +45,8 @@ class binarySearchTree {
     Node * treeMinimum(Node * x);
     //insert function
     void Insert(Node *);
-
+    void printLevelOrder(int depth);
+    string printLevel(Node * x, int level);
     //traversals
     void PreOrderTraversal(Node *);
 
